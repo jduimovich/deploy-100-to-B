@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: demoservice
-        image: DEMO_V1
+        image: jduimovich/demoservice-v1
         resources:
           limits:
             cpu: "200m"
@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: demoservice
-        image: DEMO_V2
+        image: jduimovich/demoservice-v2
         resources:
           limits:
             cpu: "200m"
@@ -95,7 +95,7 @@ spec:
     spec:
       containers:
       - name: config
-        image: CONFIG_V1 
+        image: jduimovich/config-v1 
         resources:
           limits:
             cpu: "300m"
